@@ -5,7 +5,7 @@ import Chat from "./components/Chat/Chat";
 export default function Home() {
   return (
     <main className="App  min-h-screen">
-      <div className="flex flex-col p-8 mb-10 items-center justify-center">
+      <div className="flex flex-col p-1 sm:p-8 mb-10 items-center justify-center">
         <div className="flex mb-8 items-center">
           <Image
             src="/logo.jpg"

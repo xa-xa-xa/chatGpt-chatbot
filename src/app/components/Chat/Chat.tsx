@@ -38,12 +38,12 @@ function Chat() {
   }, [messages.length]);
 
   return (
-    <div className="w-full rounded-2xl bg-white border shadow-sm border-gray-50 overflow-hidden">
+    <div className="w-full rounded-md sm:rounded-2xl bg-white border shadow-sm border-gray-50 overflow-hidden">
       <div
         className="h-[80vh] overflow-y-auto scroll-smooth "
         ref={chatContainer}
       >
-        <div className="flex flex-col  px-12 py-4">
+        <div className="flex flex-col  px-0 py-4 sm:px-12">
           {" "}
           <ChatLine
             key="greatingMessage"

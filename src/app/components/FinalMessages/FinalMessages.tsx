@@ -7,7 +7,6 @@ type FinalMessagesProps = {
 };
 
 const FinalMessages = memo(({ messages }: FinalMessagesProps) => {
-  console.count("render FinalMessages");
   return messages.map((message: Message, index: number) => {
     const isUser = message.role === "user";
     const showEndLine = index < messages.length - 1;
@@ -22,5 +21,8 @@ const FinalMessages = memo(({ messages }: FinalMessagesProps) => {
     );
   });
 });
+
+// Add the displayName for better debugging
+FinalMessages.displayName = "FinalMessages";
 
 export default FinalMessages;

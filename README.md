@@ -14,6 +14,8 @@ pnpm dev
 bun dev
 ```
 
+### To use with your ChatGPT key - create `.env` file in the root and add this line with your key `OPENAI_API_KEY=YOUR_OPEN_AI_KEY_NO_STRING_QUOTES`
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
